@@ -1,0 +1,6 @@
+framework module Pods_GearDateTime_Tests {
+  umbrella header "Pods-GearDateTime_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

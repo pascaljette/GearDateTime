@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GearDateTime_Tests' do
+  pod 'GearDateTime', :path => '../'
+  
+  
+end

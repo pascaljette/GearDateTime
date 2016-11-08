@@ -1,0 +1,16 @@
+PODS:
+  - GearDateTime (0.1.0)
+
+DEPENDENCIES:
+  - GearDateTime (from `../`)
+
+EXTERNAL SOURCES:
+  GearDateTime:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GearDateTime: 5cbb45eba63cc0681bfe139d98d95e4e705edb06
+
+PODFILE CHECKSUM: 809a1f26853f514caf72444b56ec6bd830798ff7
+
+COCOAPODS: 1.0.1

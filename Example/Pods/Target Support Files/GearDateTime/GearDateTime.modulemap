@@ -1,0 +1,6 @@
+framework module GearDateTime {
+  umbrella header "GearDateTime-umbrella.h"
+
+  export *
+  module * { export * }
+}
