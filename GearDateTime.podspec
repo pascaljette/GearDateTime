@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-Can be used either as a framework library or as a tutorial.
+Date, Calendar and Components wrapper/shortcut for easy date management.
+This provides a .NET-like framework for manipulating DateTime objects using
+Swift instead of C#.
                        DESC
 
   s.homepage         = "https://github.com/pascaljette/GearDateTime"
@@ -30,9 +32,9 @@ Can be used either as a framework library or as a tutorial.
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/GearDateTime/**/*'
+  s.source_files = 'GearDateTime/**/*'
   #s.resource_bundles = {
-  #  'GearKit' => ['Pod/Assets/*.png']
+  #  'GearKit' => ['Assets/*.png']
   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
