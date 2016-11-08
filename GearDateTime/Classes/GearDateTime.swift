@@ -503,15 +503,15 @@ extension GearDateTime {
          
             let componentsForCurrentDate = calendar.dateComponents([.year, .month, .day], from: date)
             
-            let componentYear = componentsForCurrentDate.year == nil || componentsToAdd.year == nil
+            let componentYear: Int? = componentsForCurrentDate.year == nil || componentsToAdd.year == nil
                 ? nil
                 : componentsForCurrentDate.year! + componentsToAdd.year!
             
-            let componentMonth = componentsForCurrentDate.month == nil || componentsToAdd.month == nil
+            let componentMonth: Int? = componentsForCurrentDate.month == nil || componentsToAdd.month == nil
                 ? nil
                 : componentsForCurrentDate.month! + componentsToAdd.month!
             
-            let componentDay = componentsForCurrentDate.day == nil || componentsToAdd.day == nil
+            let componentDay: Int? = componentsForCurrentDate.day == nil || componentsToAdd.day == nil
                 ? nil
                 : componentsForCurrentDate.day! + componentsToAdd.day!
 
